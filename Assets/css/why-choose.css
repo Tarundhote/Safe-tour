@@ -1,0 +1,23 @@
+.choose-sec-img{
+  width: 50%;
+}
+
+.choose-sec-img img{
+      width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.list-con{
+  margin-left: -10px !important;
+}
+
+@media (max-width:768px) {
+  .choose-sec-img{
+  width: 100%;
+}
+.choose-sec-img img{
+  height: 300px;
+}
+}

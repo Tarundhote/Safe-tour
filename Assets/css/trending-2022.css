@@ -1,0 +1,115 @@
+.trending-section{
+  padding: 100px 0px 0px 0px;
+}
+
+.mySwiper{
+  padding: 20px 0;
+  /* overflow-x: visible !important; */
+  overflow: hidden;
+}
+
+.swiper-wrapper{
+  display: flex;
+  gap: 20px;
+   overflow: visible;
+}
+
+.mySwiper::-webkit-scrollbar {
+  display: none;
+}
+
+.swiper-slide{
+  width: auto;
+}
+
+.trend-card{
+  width: 320px !important;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.06);
+  transition: 0.3s;
+  margin: 15px 0px;
+
+}
+
+.trend-card img{
+  width: 100% !important;
+  height: 180px;
+  object-fit: cover;
+}
+
+.trend-card:hover{
+  transform: translateY(-5px) scale(1.03);
+}
+
+.price{
+  font-weight: 700;
+}
+
+.book-btn{
+  background: #e6f7fb;
+  color: #0dcaf0;
+  padding: 5px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.dot{
+  width: 8px;
+  height: 8px;
+  background: orange;
+  border-radius: 50%;
+}
+.nav-btn{
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 1px solid #ececec;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+}
+
+.nav-btn svg{
+  width: 25px;
+  height: 25px;
+}
+
+.nav-btn svg path{
+  fill: #505050;
+  transition: 0.3s;
+}
+
+.nav-btn.active{
+  background: #ff7a2f;
+  border-color: #ff7a2f;
+  transform: scale(0.95);
+}
+
+.nav-btn.active svg path{
+  fill: #fff;
+}
+
+.nav-btn:hover{
+  background: #ff7a2f;
+  border-color: #ff7a2f;
+}
+
+.nav-btn:hover svg path{
+  fill: #fff;
+}
+
+@media (max-width:768px) {
+  
+  .trending-section{
+  padding: 40px 0px;
+  margin: 10px;
+}
+ .trend-card {
+    max-width: 260px;
+  }
+}
