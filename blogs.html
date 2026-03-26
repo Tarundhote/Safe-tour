@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About us</title>
+    <title>Blogs</title>
 
     <link
       rel="stylesheet"
@@ -25,12 +25,13 @@
     />
     <link rel="stylesheet" href="./Assets/css/Articles.css" />
     <link rel="stylesheet" href="./Assets/css/inner-pages css/inn-about.css">
+    <link rel="stylesheet" href="./Assets/css/inner-pages css/blog.css">
     
   </head>
 
   <body>
-    <header>
-      <div class="container d-flex justify-content-between align-items-center ">
+   <header>
+      <div class="container d-flex justify-content-between align-items-center px-3 px-lg-0">
         <figure class="d-flex logo-con gap-2 mb-0">
           <img src="./Assets/images/Logo-f.png" alt="Safe Tour Logo" />
         </figure>
@@ -41,11 +42,11 @@
             <li><a href="./about.html" class="text-decoration-none">About</a></li>
             <li><a href="./destinations.html" class="text-decoration-none">Destinations</a></li>
             <li><a href="./blogs.html" class="text-decoration-none">Blog</a></li>
-            <li><a href="#" class="text-decoration-none">Pages</a></li>
+            <li><a href="./Vietnam-tour.html" class="text-decoration-none">Pages</a></li>
           </ul>
         </nav>
 
-        <a href="#" class="header-btn text-decoration-none">Contact us</a>
+        <a href="./contact.html" class="header-btn text-decoration-none">Contact us</a>
 
         <div class="toggle-btn resp-pd" id="burger" role="button" aria-label="Menu">
           <span></span>
@@ -56,6 +57,7 @@
     </header>
 
 
+
     <main class="m-0 p-0">
 
       <!-- hero section -->
@@ -63,7 +65,7 @@
   <img src="./Assets/images/about-3.png" alt="banner" class="hero-img">
 
   <div class="container m-0 p-0 text-center hero-content">
-    <h1 class="fw-bold mb-2">About Us</h1>
+    <h1 class="fw-bold mb-2">Blogs</h1>
     <p class="mb-3">Discover who we are and why travelers trust Safe Tour</p>
 
     <nav aria-label="breadcrumb">
@@ -72,7 +74,7 @@
           <a href="#" class="text-warning text-decoration-none">Home</a>
         </li>
         <li class="breadcrumb-item active" aria-current="page">
-          About
+          Blogs
         </li>
       </ol>
     </nav>
@@ -80,7 +82,334 @@
 </section>
 
 
+<!-- blog section -->
 
+<section class="blog-container py-5">
+  <div class="container">
+
+    <div class="text-center mb-4">
+      <h2 class="fw-bold">Latest Travel Blogs</h2>
+      <p class="text-muted">Explore travel stories, tips, and guides</p>
+    </div>
+
+    <!-- Tabs -->
+    <ul class="nav nav-pills justify-content-center mb-4">
+      <li class="nav-item">
+        <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#all">All</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#travel">Travel</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#adventure">Adventure</button>
+      </li>
+      <li class="nav-item">
+        <button class="nav-link" data-bs-toggle="pill" data-bs-target="#tips">Tips</button>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+
+      <!-- ALL -->
+      <div class="tab-pane fade show active" id="all">
+        <div class="row g-4">
+
+             <!-- Blog 1 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/Blog-img-1.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">March 2026 • Travel</span>
+                <h4 class="title">Top Places to Visit in Vietnam</h4>
+                <p class="location">Discover breathtaking destinations across Vietnam.</p>
+                <a href="./Vietnam-tour.html" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 4 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/t-blog-2.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">April 2026 • Travel</span>
+                <h4 class="title">Hidden Gems of Thailand</h4>
+                <p class="location">Explore unique destinations in Thailand.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 7 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/t-blog-3.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">January 2026 • Travel</span>
+                <h4 class="title">Best European Cities to Visit</h4>
+                <p class="location">Discover top destinations across Europe.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+           <!-- Blog 2 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/blog-img-2.jpg">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">Feb 2026 • Adventure</span>
+                <h4 class="title">Explore Bali in 5 Days</h4>
+                <p class="location">Plan your perfect Bali trip.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 5 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/a-blog-1.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">March 2026 • Adventure</span>
+                <h4 class="title">Mountain Adventures in Nepal</h4>
+                <p class="location">Experience trekking in Himalayas.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 8 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/a-blog-2.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">December 2025 • Adventure</span>
+                <h4 class="title">Desert Safari in Dubai</h4>
+                <p class="location">Enjoy thrilling desert experiences.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+           <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/blog-img-3.jpg">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">Jan 2026 • Tips</span>
+                <h4 class="title">Best Travel Tips for 2026</h4>
+                <p class="location">Smart travel hacks for better trips.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 6 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/t-blog-5.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">Feb 2026 • Tips</span>
+                <h4 class="title">Budget Travel Guide</h4>
+                <p class="location">Travel smart without overspending.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 9 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/t-blog-6.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">Nov 2025 • Tips</span>
+                <h4 class="title">Packing Essentials</h4>
+                <p class="location">Never forget important travel items.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+
+      <!-- TRAVEL -->
+      <div class="tab-pane fade" id="travel">
+        <div class="row g-4">
+
+            <!-- Blog 1 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/Blog-img-1.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">March 2026 • Travel</span>
+                <h4 class="title">Top Places to Visit in Vietnam</h4>
+                <p class="location">Discover breathtaking destinations across Vietnam.</p>
+                <a href="./Vietnam-tour.html" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+
+          
+          <!-- Blog 4 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/t-blog-2.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">April 2026 • Travel</span>
+                <h4 class="title">Hidden Gems of Thailand</h4>
+                <p class="location">Explore unique destinations in Thailand.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 7 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/t-blog-3.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">January 2026 • Travel</span>
+                <h4 class="title">Best European Cities to Visit</h4>
+                <p class="location">Discover top destinations across Europe.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- ADVENTURE -->
+      <div class="tab-pane fade" id="adventure">
+        <div class="row g-4">
+
+          <!-- Blog 2 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/blog-img-2.jpg">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">Feb 2026 • Adventure</span>
+                <h4 class="title">Explore Bali in 5 Days</h4>
+                <p class="location">Plan your perfect Bali trip.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 5 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/a-blog-1.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">March 2026 • Adventure</span>
+                <h4 class="title">Mountain Adventures in Nepal</h4>
+                <p class="location">Experience trekking in Himalayas.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 8 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/a-blog-2.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">December 2025 • Adventure</span>
+                <h4 class="title">Desert Safari in Dubai</h4>
+                <p class="location">Enjoy thrilling desert experiences.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+      <!-- TIPS -->
+      <div class="tab-pane fade" id="tips">
+        <div class="row g-4">
+
+           <!-- Blog 3 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/blog-img-3.jpg">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">Jan 2026 • Tips</span>
+                <h4 class="title">Best Travel Tips for 2026</h4>
+                <p class="location">Smart travel hacks for better trips.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 6 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/t-blog-5.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">Feb 2026 • Tips</span>
+                <h4 class="title">Budget Travel Guide</h4>
+                <p class="location">Travel smart without overspending.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog 9 -->
+          <div class="col-12 col-lg-4">
+            <div class="tour-card blog-card">
+              <img src="./Assets/images/t-blog-6.png">
+              <div class="tour-content pt-3">
+                <span class="blog-meta">Nov 2025 • Tips</span>
+                <h4 class="title">Packing Essentials</h4>
+                <p class="location">Never forget important travel items.</p>
+                <a href="#" class="read-more">Read More →</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    <!-- Subscribe our newsletter -->
+
+      <section class="container">
+        <div class="subscribe-container">
+          <div class="sub-con-img">
+            <img src="./Assets/images/sub-top-icon.png" alt="" />
+          </div>
+          <div
+            class="d-flex gap-1 flex-column justify-content-evenly text-center mt-2"
+          >
+            <h3 class="fw-bold fs-1">Subscribe our newsletter</h3>
+            <p class="fs-5 mx-auto">
+              Reciev latest news, update, and many other things every week.
+            </p>
+            <div class="sub-search-box mt-4 ">
+              <input
+                type="text"
+                placeholder="Enter Your email address...."
+                class=""
+              />
+              <a href=""
+                ><img src="./Assets/images/Send.png" alt="" class="pt-2"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 

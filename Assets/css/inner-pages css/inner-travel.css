@@ -1,0 +1,38 @@
+.adv-cat span {
+  font-size: 30px;
+}
+
+.adv-cat p {
+  margin-top: 5px;
+  font-weight: 500;
+}
+
+/* Cards */
+.adv-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.adv-card .meta {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Highlight */
+.highlight-section {
+  height: 200px;
+  background: linear-gradient(90deg, #31c3e0, #1e90ff);
+  color: #fff;
+}
+
+.highlight-section h2 {
+  font-weight: 700;
+}
+
+@media (max-width: 576px) {
+  .highlight-section {
+    height: 150px;
+  }
+}

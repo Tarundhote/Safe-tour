@@ -1,0 +1,43 @@
+.blog-card {
+  transition: 0.3s;
+}
+
+.blog-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.blog-card:hover {
+  transform: translateY(-6px);
+}
+
+.blog-meta {
+  font-size: 13px;
+  color: #888;
+}
+
+.read-more {
+  color: #ff7a00;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.read-more:hover {
+  text-decoration: underline;
+}
+
+
+.nav-pills .nav-link {
+  border-radius: 30px;
+  padding: 8px 20px;
+  color: #555;
+  border: 1px solid #ddd;
+  margin: 0 5px;
+}
+
+.nav-pills .nav-link.active {
+  background-color: #31c3e0;
+  color: #fff;
+}

@@ -1,0 +1,73 @@
+.v-container .map-box {
+  width: 100%;
+  height: 375px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.map-box iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+
+.info-box {
+  background: #f8fafc;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+
+.btn-info {
+  background-color: #31c3e0;
+  border: none;
+}
+
+.btn-info:hover {
+  background-color: #28a9c4;
+}
+/* time section */
+
+.itinerary-card {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  transition: 0.3s;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.itinerary-card:hover {
+  transform: translateY(-6px);
+}
+
+.itinerary-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+/* review */
+.review-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+.review-card img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 5px 0px;
+}
+
+
+
+
+
+@media (max-width: 576px) {
+  .map-box {
+    height: 250px;
+  }
+}

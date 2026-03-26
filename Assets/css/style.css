@@ -24,8 +24,7 @@ header .container{
 
 @media (max-width: 576px) {
   .container{
-  padding-right: 0px !important;
-  margin-right: -10px !important;
-}
-
+  margin-right: 12px !important;
+  margin-left: 5px !important;
+  }
 }

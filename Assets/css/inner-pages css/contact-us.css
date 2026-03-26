@@ -1,0 +1,164 @@
+
+
+.inner-hero h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #222;
+}
+
+.inner-hero p {
+  color: #666;
+}
+
+/* Contact Info */
+.contact-info {
+  background: #f8fafc;
+}
+
+.info-card {
+  background: #fff;
+  border-radius: 18px;
+  padding: 30px 20px;
+  transition: 0.3s;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.info-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.info-card p {
+  color: #666;
+  margin: 0;
+}
+
+/* Contact Section */
+.contact-section {
+  background: #fff;
+  overflow: hidden;
+}
+
+.contact-form {
+  background: #f8fafc;
+  border-radius: 20px;
+  padding: 35px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+}
+
+.contact-form h3 {
+  font-weight: 700;
+}
+
+/* Form */
+.form-control {
+  border-radius: 10px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.form-control:focus {
+  border-color: #31c3e0;
+  box-shadow: none;
+}
+
+/* Button */
+.btn-custom {
+  background-color: rgba(49, 195, 224, 1);
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-custom:hover {
+  background-color: rgba(49, 195, 224, 0.85);
+  color: #fff;
+}
+
+/* Image */
+.contact-img-con{
+  height: 500px !important;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+
+.contact-img-con img {
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+/* Map */
+.map-section iframe {
+  width: 100%;
+  height: 420px;
+  border: 0;
+}
+
+/* ================= RESPONSIVE ================= */
+
+/* Large screens */
+@media (min-width: 1200px) {
+  .inner-hero h1 {
+    font-size: 48px;
+  }
+}
+
+/* Laptops */
+@media (max-width: 1199px) {
+  .inner-hero h1 {
+    font-size: 38px;
+  }
+}
+
+/* Tablets */
+@media (max-width: 991px) {
+
+  .inner-hero {
+    min-height: 35vh;
+  }
+
+  .inner-hero h1 {
+    font-size: 32px;
+  }
+
+  .contact-form {
+    padding: 25px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+
+  .inner-hero {
+    min-height: 30vh;
+  }
+
+  .inner-hero h1 {
+    font-size: 26px;
+  }
+
+  .inner-hero p {
+    font-size: 14px;
+  }
+
+  .info-card {
+    padding: 20px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+
+  .map-section iframe {
+    height: 300px;
+  }
+}

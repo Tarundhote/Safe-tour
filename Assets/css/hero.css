@@ -9,6 +9,7 @@
 
 .left-hero{
   width: 40%;
+  padding-top:  50px;
 }
 
 .mdl-hero{
@@ -179,6 +180,8 @@ width: 100%;
   }
   .left-hero{
   width: 100%;
+          padding-top: 45px;
+
 }
 
 .mdl-hero{
@@ -196,7 +199,7 @@ width: 100%;
 }
 
 .hero-con {
-    padding:  0;
+    padding-top:  60px;
 }
 .right-card {
   margin-top: 20px;
