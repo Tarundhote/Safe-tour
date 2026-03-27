@@ -70,4 +70,7 @@
   .map-box {
     height: 250px;
   }
+  .review-con-inner{
+    margin-top: 295px !important;
+  }
 }

@@ -25,6 +25,6 @@ header .container{
 @media (max-width: 576px) {
   .container{
   margin-right: 12px !important;
-  margin-left: 5px !important;
+  /* margin-left: 5px !important; */
   }
 }
