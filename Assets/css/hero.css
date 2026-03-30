@@ -207,7 +207,7 @@ width: 100%;
     margin-left: 0px;
     display: flex;
     flex-direction: row !important; 
-           gap: 10px;
+           gap: 5px;
         flex-wrap: wrap;
                 justify-content: center;
 }
