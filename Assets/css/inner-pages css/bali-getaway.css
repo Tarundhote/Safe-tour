@@ -1,0 +1,13 @@
+.bali-map-con .map-box{
+  width: 100%;
+  height: 370px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+@media (max-width:576px) {
+.review-con-bali{
+  margin-top: -50px;
+}
+  
+}
