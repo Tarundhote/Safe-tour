@@ -1,5 +1,6 @@
 .blog-card {
   transition: 0.3s;
+  background-color: rgba(249, 249, 249, 0.952);
 }
 
 .blog-card img {
@@ -40,4 +41,11 @@
 .nav-pills .nav-link.active {
   background-color: #31c3e0;
   color: #fff;
+}
+
+@media (max-width: 576px) {
+  .blog-card  {
+  width: 100%;
+  height: 420px;
+}
 }
