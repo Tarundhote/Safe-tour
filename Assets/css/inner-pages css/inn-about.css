@@ -152,4 +152,7 @@
   .mission-container{
   padding:30px 0px 80px 0px;
 }
+.faq-img img {
+  border-radius: 15px;
+}
 }
