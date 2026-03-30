@@ -177,7 +177,7 @@ width: 100%;
 @media (max-width:778px) {
   .hero-flex-con{
     margin: 20px;
-    padding: 0px 20px;
+    /* padding: 0px 20px; */
   }
   .left-hero{
   width: 100%;
@@ -206,7 +206,10 @@ width: 100%;
   margin-top: 20px;
     margin-left: 0px;
     display: flex;
-    flex-direction: row !important;
+    flex-direction: row !important; 
+           gap: 10px;
+        flex-wrap: wrap;
+                justify-content: center;
 }
 .search-box {
     padding: 0px ; 

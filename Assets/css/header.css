@@ -162,6 +162,7 @@ transform: translateY(0);
     padding: 80px 20px 20px;
     transition: 0.6s ease;
     z-index: 1000;
+    color: white;
   }
 
   .nav-con.active{
@@ -170,7 +171,7 @@ transform: translateY(0);
     transform: translateY(0);
     background-color: black;
     height: 100vh;  
-    color: white;
+    color: white !important;
   }
 
   .nav-links{
