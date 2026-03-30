@@ -177,6 +177,7 @@ width: 100%;
 @media (max-width:778px) {
   .hero-flex-con{
     margin: 20px;
+    padding: 0px 20px;
   }
   .left-hero{
   width: 100%;
