@@ -1,6 +1,8 @@
 .blog-card {
   transition: 0.3s;
-  background-color: rgba(249, 249, 249, 0.952);
+   background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
 }
 
 .blog-card img {

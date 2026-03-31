@@ -161,6 +161,9 @@
     padding: 20px;
   }
 
+  .map-section{
+    margin-top: -60px;
+  }
   .map-section iframe {
     height: 300px;
   }

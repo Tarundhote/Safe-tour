@@ -1,11 +1,12 @@
 .tour-type-section{
   padding: 80px 0;
-  background: #f9f9f9;
 }
 
 .tour-heading{
   font-size: 36px;
   font-weight: 800;
+  color: rgba(45, 49, 52, 1);
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .tour-card{
@@ -15,6 +16,8 @@
   border: 1px solid #eee;
   transition: 0.3s;
   height: 100%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
 }
 
 .icon{
@@ -67,7 +70,7 @@
 
 @media (max-width: 576px){
   .tour-type-section{
-    padding: 50px 10px;
+    padding: 20px 10px;
   }
 
   .tour-heading{
@@ -76,7 +79,9 @@
 
   .tour-card{
     padding: 25px 15px;
-            background-color: #eeeeee;
+    background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 10px;
   }
 
   .icon{

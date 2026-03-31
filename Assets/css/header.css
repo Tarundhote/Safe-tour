@@ -60,10 +60,11 @@ transform: translateY(0);
 .nav-links a{
   position: relative;
   display: inline-block;
-  color: rgb(48, 48, 48);
+  color: rgba(45, 49, 52, 1);
   font-size: 16px;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.2px;
   font-weight: 600;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 .nav-links a::after{
@@ -81,6 +82,8 @@ transform: translateY(0);
   width: 100%;
 }
 
+
+
 .nav-links a:hover{
   color: black;
   
@@ -88,7 +91,7 @@ transform: translateY(0);
 
 .header-btn{
       margin-right: -10px;
-  background-color: #31c3e0;
+  background-color: #25b8d5;
   color: white;
   padding: 12px 25px;
   border-radius: 8px;
@@ -149,13 +152,22 @@ transform: translateY(0);
 /* Tablets */
 @media (max-width: 991px){
 
+    /* header{
+      background-color: white !important;
+    } */
+
+
+  .nav-links a:hover::after{
+  width: 0% !important;
+}
+
   .toggle-btn{
     display: flex;
   }
 
  .nav-con{
     position: fixed;
-    top: 60px;
+    top: 67px;
     right: -100%;  
     width: 100%;
     height: 100%;

@@ -14,6 +14,16 @@
  height: 450px;
   display: block;
 }
+.inner-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 450px;
+  background-color: rgba(0, 0, 0, 0.1); /* overlay color */
+  z-index: 1;
+}
 
 .hero-content {
   position: absolute;
@@ -42,6 +52,10 @@
 
 .breadcrumb-item.active {
   color: #777;
+}
+
+.tour-content{
+  padding: 10px 0px;
 }
 
 
@@ -81,7 +95,7 @@
 }
 .tour-card{
   min-width: 350px;
-  height: 500px;
+  height: 410px;
 }
 .tour-card img{
   width: 100%;
@@ -150,9 +164,12 @@
         margin-right: -10px !important;
   }
   .mission-container{
-  padding:30px 0px 80px 0px;
+  padding:30px 0px 30px 0px;
 }
 .faq-img img {
   border-radius: 15px;
+}
+.team-container {
+    padding: 30px 0px;
 }
 }

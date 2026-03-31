@@ -7,7 +7,7 @@
 
 .sub-con-img{
   margin-top: -30px;
-  padding-left: 70px;
+  padding-left: 70px; 
 }
 
 .sub-con-img img{
@@ -20,8 +20,8 @@
 .sub-search-box{
   background-color: rgba(255, 255, 255, 1);
   border-radius: 12px;
-  padding: 20px 10px;
-  height: 60px;
+  padding: 20px 0px;
+  height: 55px;
   width: 35%;
   margin: auto;
   text-align: center;
@@ -32,7 +32,7 @@
 
 .sub-search-box input{
   width: 80%;
-  padding: 10px 20px;
+  padding: 5px 15px;
   border: 1px solid white;
   border-radius: 10px;
 }
@@ -42,7 +42,6 @@
   border: 1px solid transparent;
   box-shadow: 0 0 0 2px rgba(226, 231, 232, 0.295); 
 }
-
 
 @media (max-width:480px) {
   .sub-search-box{

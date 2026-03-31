@@ -32,10 +32,10 @@
 
 .itinerary-card {
   background: #fff;
-  border-radius: 20px;
   overflow: hidden;
   transition: 0.3s;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  border-radius: 20px;
 }
 
 .itinerary-card:hover {
